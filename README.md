@@ -1,8 +1,8 @@
 ### Members
-- Shubham Kurunkar - 1041395
-- Meet Patel -1041387
-- Aditya Potdar - 1041391
-- Vandesh Sawant - 1041393
+- Shubham Kurunkar 
+- Meet Patel 
+- Aditya Potdar 
+- Vandesh Sawant 
 
 # Customer API
 This project provides a .NET-based API for managing customer data. Whether you're looking to integrate with our system or just exploring, this README will guide you through the essentials.
