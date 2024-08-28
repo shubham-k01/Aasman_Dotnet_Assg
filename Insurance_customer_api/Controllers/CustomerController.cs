@@ -32,7 +32,9 @@ namespace Insurance_customer_api.Controllers
             _customerRepo.AddCustomer(customerDTO);
             return NoContent();
         }
+
         [HttpPut]
+        [Route("{id}")]
         public IActionResult UpdateCustomer(int id,CreateCustomerDTO customerDTO)
         {
             _customerRepo.UpdateCustomer(id,customerDTO);
@@ -40,6 +42,7 @@ namespace Insurance_customer_api.Controllers
         }
 
         [HttpDelete]
+        [Route("{id}")]
         public IActionResult DeleteCustomer(int id){
             _customerRepo.DeleteCustomer(id);
             return Ok();
